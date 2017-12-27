@@ -1,4 +1,16 @@
-''' Created with Python 3.6.3 '''
+'''
+Created with Python 3.6.3
+
+Run from the command line:
+
+python bubble_sort.py --list 2 0 1 4 3 5
+
+Expected return values:
+
+Unsorted list: [2, 0, 1, 4, 3, 5]
+Bubble Sorted list: [0, 1, 2, 3, 4, 5]
+
+'''
 
 import argparse
 
