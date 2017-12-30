@@ -12,5 +12,5 @@ def insertionSort(unsorted):
             
     return sorted_list
 
-unsorted = [1, 0, 4, 3, 2, 22, 33, 14, 9, 45, 30, 24]
+unsorted = [1, 0, 4, 3, 2, 22, 33, 14, 9, 45, 30]
 print(insertionSort(unsorted))
