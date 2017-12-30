@@ -1,10 +1,12 @@
+import unittest
 from context import bubblesort
 
-# def test_bubbleSort():
-#     bubbleSort(unsorted)
+class BubbleSortTestCase(unittest.TestCase):
+    def test_bubbleSort_succeeds(self):
+        unsorted = [3, 6, 2, 1]
+        sorted_list = [1, 2, 3, 6]
+        result = bubblesort.bubbleSort(unsorted)
+        self.assertEqual(result, sorted_list)
 
-def func(x):
-    return x + 1
-
-def test_answer():
-    assert func(4) == 5
+if __name__ == '__main__':
+    unittest.main()
