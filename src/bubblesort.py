@@ -29,7 +29,7 @@ def bubbleSort(unsorted):
                 p_temp = unsorted[i]
                 unsorted[i] = unsorted[i + 1]
                 unsorted[i + 1] = p_temp
-    sorted = unsorted
-    print("Bubble Sorted list:", sorted)
+    sorted_list = unsorted
+    return sorted_list
 
-bubbleSort(unsorted)
+print('BubbleSorted list:', bubbleSort(unsorted))
